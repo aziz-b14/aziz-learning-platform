@@ -1,0 +1,32 @@
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+:root {
+  --bg: #fff;
+  --text: #000;
+}
+body.dark {
+  --bg: #121212;
+  --text: #f0f0f0;
+}
+header, footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0077aa;
+  color: white;
+}
+.logo {
+  width: 80px;
+}
+main {
+  padding: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
